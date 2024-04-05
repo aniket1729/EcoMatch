@@ -9,8 +9,8 @@ function sendOTP() {
 function validateOTP() {
     const otp = document.getElementById('otp').value;
     // Here you would validate the OTP
-    // For simplicity, we'll assume the OTP is correct and redirect the user to the index page
-    window.location.href = 'index.html';
+    // For simplicity, we'll assume the OTP is correct and redirect the user to the dashboard
+    window.location.href = 'dashboard.html';
 }
 
 function redirectToSignUp() {
